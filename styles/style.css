@@ -58,6 +58,7 @@
 }
 
 .header__description {
+  margin: 0;
   max-width: 532px;
   font-size: 20px;
   line-height: 30px;
@@ -239,8 +240,7 @@
 }
 
 .staff {
-  background: center / contain no-repeat
-    url(../images/staff_picks_background.jpg);
+  background: fixed url(../images/staff_picks_background.jpg);
   padding: 100px 0 140px;
 }
 
@@ -385,9 +385,12 @@
   max-width: 660px;
 }
 
-/* to margin the second paragraph top and bottom */
-.about__paragraph:nth-child(2) {
+.about_paragraph {
   margin: 32px 0 32px;
+}
+
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 
 .about__circle {
@@ -413,7 +416,6 @@
 
 .footer__columns {
   display: flex;
-  min-height: 224px;
 }
 
 .footer__column_content_hours {
