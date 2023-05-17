@@ -68,7 +68,7 @@
   position: absolute;
   top: 135px;
   right: 20px;
-  z-index: 1;
+  z-index: -1;
 }
 
 .header__footer {
@@ -362,7 +362,7 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
-  z-index: -2;
+  z-index: 1;
   display: flex;
   align-items: first baseline;
 }
@@ -374,7 +374,6 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
-  z-index: 1;
 }
 
 .about__content {
