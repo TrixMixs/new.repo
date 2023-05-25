@@ -18,8 +18,8 @@
 
 .nav {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  margin: 8px;
 }
 
 .logo {
@@ -386,7 +386,8 @@
 }
 
 .about_paragraph {
-  margin: 32px 0 32px;
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .about__paragraph:last-child {
