@@ -19,7 +19,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  margin: 8px;
 }
 
 .logo {
@@ -385,8 +384,7 @@
   max-width: 660px;
 }
 
-.about_paragraph {
-  margin-top: 32px;
+.about__paragraph {
   margin-bottom: 32px;
 }
 
